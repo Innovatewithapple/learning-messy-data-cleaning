@@ -48,3 +48,35 @@ Instead of jumping directly to pandas shortcuts, I tried to reason about the str
 - separated metadata rows from data rows  
 - manually mapped column meaning  
 - iterated only over v
+
+### Implementation Summary
+- separated metadata rows from data rows  
+- manually mapped column meaning  
+- iterated only over valid (non-NaN) combinations  
+- reconstructed clean rows into a new DataFrame  
+
+---
+
+## Tools Used
+
+- **pandas** — DataFrame manipulation and restructuring  
+- **NumPy** — numerical operations and missing-value handling  
+- **Jupyter Notebook** — exploration and step-by-step reasoning  
+
+---
+
+## Key Learnings
+
+- most of the effort goes into understanding structure, not writing code  
+- manual reconstruction builds intuition before using higher-level pandas helpers  
+- messy data problems are more about reasoning than syntax  
+
+---
+
+## Open Questions
+
+- How would you approach this differently?  
+- Is there a more idiomatic pandas pattern worth learning next?  
+- At what point would you switch from manual logic to vectorized reshaping?  
+
+This notebook is part of my ongoing learning in Python, data, ML, and AI.
